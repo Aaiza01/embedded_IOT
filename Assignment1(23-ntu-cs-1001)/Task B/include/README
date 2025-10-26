@@ -1,0 +1,20 @@
+Name: Aaiza Rashid
+section: 23-ntu-cs-1001
+Registration No: 23-NTU-CS-1001
+Course: Embedded IoT
+Board Used: ESP32 (NodeMCU-32S)
+Assignment: Use one button to toggle LED state and trigger buzzer on long press
+
+
+##wokwi simulator link
+[view on wokwi]
+https://wokwi.com/projects/445800685669339137
+
+
+*******************pin Map****************
+ESP32 Pin	Connected To	Function
+GPIO 32	    Push Button	    Input (with pull-up)
+GPIO 16	    LED	            Output
+GPIO 17  	Buzzer	        Output
+GPIO 21	    OLED SDA	    I2C Data
+GPIO 22	    OLED SCL	     I2C Clock
